@@ -4,8 +4,6 @@ import { Statistics } from './Statistics/Statistics';
 import { Layout } from './Layout.styled';
 import { Section } from './Section/Section';
 
-import React from 'react';
-
 export const App = () => {
   const [good, setgood] = useState(0);
   const [neutral, setneutral] = useState(0);
